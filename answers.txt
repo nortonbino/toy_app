@@ -1,0 +1,16 @@
+2) ele cria o user mesmo assim
+3)  ele cria o user mesmo assim
+4) Sim
+
+MVC
+
+1) 
+    The browser issues a request for the /users/1/edit URL.
+    Rails routes /users/1/edit to the index action in the Users controller.
+    The index action asks the User model to retrieve user's 1 edit page.
+    The User model pulls user's 1 from the database.
+    The controller captures the user's 1 edit page in the @users variable, which is passed to the index view.
+    The view uses embedded Ruby to render the page as HTML.
+    The controller passes the HTML back to the browser.
+
+2) _edit.html.erb
